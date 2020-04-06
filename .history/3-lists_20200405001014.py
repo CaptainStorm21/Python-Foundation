@@ -30,18 +30,4 @@ print(fruits)
 fruits.pop(4)
 print(fruits)
 
-#reverse list 
-fruits.reverse()
-print(fruits)
-
-#sort an array
-fruits.sort()
-print(fruits)
-
-#reverse the sort
-fruits.sort(reverse=True)
-print(fruits)
-
-
-
-
+#rem

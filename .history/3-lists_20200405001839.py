@@ -38,9 +38,10 @@ print(fruits)
 fruits.sort()
 print(fruits)
 
-#reverse the sort
-fruits.sort(reverse=True)
-print(fruits)
+
+
+
+
 
 
 

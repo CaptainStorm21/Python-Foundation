@@ -39,7 +39,7 @@ fruits.sort()
 print(fruits)
 
 #reverse the sort
-fruits.sort(reverse=True)
+fruits.sort(revers=True)
 print(fruits)
 
 

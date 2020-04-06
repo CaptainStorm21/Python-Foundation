@@ -26,22 +26,6 @@ print(fruits)
 fruits.insert(2, 'Coconut')
 print(fruits)
 
-#remove from a spot
-fruits.pop(4)
+#insert into a spot
+fruits.insert(2, 'Coconut')
 print(fruits)
-
-#reverse list 
-fruits.reverse()
-print(fruits)
-
-#sort an array
-fruits.sort()
-print(fruits)
-
-#reverse the sort
-fruits.sort(reverse=True)
-print(fruits)
-
-
-
-

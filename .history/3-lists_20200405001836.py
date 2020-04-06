@@ -35,12 +35,13 @@ fruits.reverse()
 print(fruits)
 
 #sort an array
-fruits.sort()
+fru
 print(fruits)
 
-#reverse the sort
-fruits.sort(reverse=True)
-print(fruits)
+
+
+
+
 
 
 
