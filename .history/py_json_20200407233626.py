@@ -1,0 +1,7 @@
+# JSON is commonly used with data APIS. Here how we can parse JSON into a Python dictionary
+import json
+
+# Sample Json
+userJSON = '{
+    "first_name": 'Alice'
+}''
