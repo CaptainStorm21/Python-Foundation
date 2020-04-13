@@ -1,0 +1,3 @@
+input ('testingpassword')
+input ('secret')
+
