@@ -39,7 +39,4 @@ PI = 3.14
 #do not create a variable with double underscore
 # __greeting = "hello "
 
-a, b, c = 1, 2, 3
-print(a)
-print(b)
-print(c)
+a, b, c = 
