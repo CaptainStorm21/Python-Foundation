@@ -20,8 +20,8 @@ print(basket)
 print(basket.index(21))
 print(basket)
 
-basket.sort()
-print(basket)
+# basket.sort()
+# print(basket)
 
 
 #insert
@@ -32,14 +32,6 @@ print(basket)
 
 #look up
 forest = ['trees', 'bush', 'mushrooms', 'berries' ]
-
-#reverse
-forest.reverse()
-print(forest)
-
-#sorted
-print(sorted(forest))
-
 #false
 print ('x' in forest)
 #true

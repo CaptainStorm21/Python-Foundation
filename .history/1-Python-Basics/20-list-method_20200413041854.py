@@ -34,8 +34,7 @@ print(basket)
 forest = ['trees', 'bush', 'mushrooms', 'berries' ]
 
 #reverse
-forest.reverse()
-print(forest)
+print(reverse())
 
 #sorted
 print(sorted(forest))
