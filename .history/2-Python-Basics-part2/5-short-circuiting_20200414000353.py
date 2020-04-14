@@ -1,0 +1,3 @@
+# Short Circuting
+
+is_
