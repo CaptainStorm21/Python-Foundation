@@ -1,7 +1,6 @@
 # Dictionary key has to be immutable 
 # do not create an array as a key 
-# for example [32]: true  --- this does not work
-# 2 same keys - print will show 2nd key ONLY
+# for example []
 
 game_archive = {
     'weapons': [1,2,3],

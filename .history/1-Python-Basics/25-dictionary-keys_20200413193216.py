@@ -1,4 +1,4 @@
-# Dictionary methods
+# Dictionary
 
 game_archive = {
     'weapons': [1,2,3],
@@ -6,4 +6,4 @@ game_archive = {
     'is_Magic': True
 }
 
-print(game_archive['a'[1]])
+print(game_archive)
