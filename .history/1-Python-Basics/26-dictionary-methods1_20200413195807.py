@@ -41,7 +41,7 @@ print (game_archive)
 #update
 print (game_archive.update({'weapons': "Katana Pro"}))
 # update even if key pair doesnt exist
-print (game_archive.update({'country_Origin': "Japan"}))
+print (game_archive.update({'weapons': "Katana Pro"}))
 print (game_archive)
 
 

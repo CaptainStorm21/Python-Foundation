@@ -34,16 +34,8 @@ print ( 'Good day'  in game_archive.values())
 # check items
 print(game_archive.items())
 
-# removes last key/value pair
-print (game_archive.popitem())
-print (game_archive)
-
-#update
-print (game_archive.update({'weapons': "Katana Pro"}))
-# update even if key pair doesnt exist
-print (game_archive.update({'country_Origin': "Japan"}))
-print (game_archive)
-
+# copy of a dictionary
+print (game.archive)
 
 # clears the content of dictionary
 print(game_archive)

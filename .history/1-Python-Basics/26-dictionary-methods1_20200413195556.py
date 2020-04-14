@@ -38,14 +38,7 @@ print(game_archive.items())
 print (game_archive.popitem())
 print (game_archive)
 
-#update
-print (game_archive.update({'weapons': "Katana Pro"}))
-# update even if key pair doesnt exist
-print (game_archive.update({'country_Origin': "Japan"}))
-print (game_archive)
-
-
 # clears the content of dictionary
-print(game_archive)
-print(game_archive.clear())
-print(game_archive)
+# print(game_archive)
+# print(game_archive.clear())
+# print(game_archive)

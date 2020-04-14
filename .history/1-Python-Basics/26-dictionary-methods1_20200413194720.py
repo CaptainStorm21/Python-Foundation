@@ -24,28 +24,10 @@ print(user)
 print ( 'weapons'  in game_archive)
 
 # to check the keys 
-# Output True
 print ( 'weapons'  in game_archive.keys())
 
 # to check values
-# output True
-print ( 'Good day'  in game_archive.values())
-
-# check items
-print(game_archive.items())
-
-# removes last key/value pair
-print (game_archive.popitem())
-print (game_archive)
-
-#update
-print (game_archive.update({'weapons': "Katana Pro"}))
-# update even if key pair doesnt exist
-print (game_archive.update({'country_Origin': "Japan"}))
-print (game_archive)
+print ( ''  in game_archive.value())
 
 
-# clears the content of dictionary
-print(game_archive)
-print(game_archive.clear())
-print(game_archive)
+
