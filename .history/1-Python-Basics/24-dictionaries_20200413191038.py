@@ -16,4 +16,4 @@ my_list = [
 ]
 
 print(my_list[0]['a'][2])
-
+print(my_list[0]['a'][2])
