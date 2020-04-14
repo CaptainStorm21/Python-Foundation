@@ -45,7 +45,7 @@ print(my_set3.isdisjoint(your_set3))
 print(my_set3.issubset(your_set3))
 #false
 print(my_set3.issuperset(your_set3))
-#true
+#
 print(super_set.issuperset(your_set3))
 
 

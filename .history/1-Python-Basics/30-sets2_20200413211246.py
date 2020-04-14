@@ -24,7 +24,6 @@ print(my_set1)
 #output - {1, 2, 3, 9, 10, 342, 23}
 my_set2 = { 342, 23, 1,  2,  3,  9,  10,  9 }
 your_set2 = [ 342, 23, 42, 46, 53, 34, 10 ]
-# union removes duplicates in both arrays
 my_set2.union(your_set2)
 print(my_set2)
 
@@ -35,17 +34,12 @@ your_set3 = [ 342, 23, 42, 46, 53, 34, 10 ]
 my_set3.issuperset(your_set3)
 print(my_set3)
 
-#ouput
+#ouput - false
 my_set3 = { 8888, 23, 1,  2,  3,  9,  10,  9 }
 your_set3 = [ 342, 23, 42, 46, 53, 34, 10 ]
-super_set={1000, 13000, 342, 23, 42, 46, 53, 34, 10 }
 #false
 print(my_set3.isdisjoint(your_set3))
-#false
 print(my_set3.issubset(your_set3))
-#false
 print(my_set3.issuperset(your_set3))
-#true
-print(super_set.issuperset(your_set3))
 
 

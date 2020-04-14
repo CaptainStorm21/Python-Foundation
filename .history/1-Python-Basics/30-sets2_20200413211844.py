@@ -38,14 +38,14 @@ print(my_set3)
 #ouput
 my_set3 = { 8888, 23, 1,  2,  3,  9,  10,  9 }
 your_set3 = [ 342, 23, 42, 46, 53, 34, 10 ]
-super_set={1000, 13000, 342, 23, 42, 46, 53, 34, 10 }
+super_set=[1000, 13000, 342, 23, 42, 46, 53, 34, 10 ]
 #false
 print(my_set3.isdisjoint(your_set3))
 #false
 print(my_set3.issubset(your_set3))
 #false
 print(my_set3.issuperset(your_set3))
-#true
-print(super_set.issuperset(your_set3))
+
+print(my_set3.issuperset(your_set3))
 
 
