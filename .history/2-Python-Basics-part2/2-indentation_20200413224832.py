@@ -7,5 +7,4 @@ else:
     print('not old enugh')
 print('code is completed')
 
-# indentation happens automatically .. intepreter sees the space as a set of instructions
-# use 4 spaces if your IDE does not format python properly
+# indentation happens automatically .. intepreter see
