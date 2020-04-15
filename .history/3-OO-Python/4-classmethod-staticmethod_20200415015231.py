@@ -25,11 +25,7 @@ class PlayerCharacter :
     def adding_things1(cls, num1, num2):
         return cls( 'Teddy', num1 + num2)
     
-    @staticmethod
-     #does not have access to cls class
-    def adding_things2(num1, num2):
-        return num1 + num2
-    
+
 player1 = PlayerCharacter('Josh', 23)
 print(player1.adding_things(2,3))
 
