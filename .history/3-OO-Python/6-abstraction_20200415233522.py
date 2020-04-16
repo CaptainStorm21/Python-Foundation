@@ -14,6 +14,6 @@ player1 = PlayerCharacter('Andy', 1000)
 # print((1,2,3,1).count(1))
 # print(len((1,2,3,1)))
 
-# this is a conversion from speak()  into a string
+# this is a conversion from speak()
 player1.speak = 'speak with me'
 print(player1.speak)
