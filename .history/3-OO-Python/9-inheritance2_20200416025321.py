@@ -23,10 +23,8 @@ class Archer(User):
         print(f'attacking with with{self.archer} arrows')
         
 wizard1 = Wizard('Merlin', 50 )
-# print(wizard1.attack())
-print(isinstance (wizard1, Wizard))
-print(isinstance (wizard1, User))
-print(isinstance (wizard1, object))
+print(wizard1.attack())
+print(isinstance (wizard1, Wizard)
 
 # wizard1 = Wizard('Merlin', 50 )
 # print(wizard1.attack())

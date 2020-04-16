@@ -25,8 +25,6 @@ class Archer(User):
 wizard1 = Wizard('Merlin', 50 )
 # print(wizard1.attack())
 print(isinstance (wizard1, Wizard))
-print(isinstance (wizard1, User))
-print(isinstance (wizard1, object))
 
 # wizard1 = Wizard('Merlin', 50 )
 # print(wizard1.attack())
