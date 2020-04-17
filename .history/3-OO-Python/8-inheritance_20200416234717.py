@@ -1,4 +1,4 @@
-#  inheritance
+#  py
 
 class User():
     def sign_in(self):

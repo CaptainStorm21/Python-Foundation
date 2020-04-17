@@ -1,4 +1,4 @@
-#  inheritance
+#  polymorphism - share  methods by classes
 
 class User():
     def sign_in(self):
@@ -25,4 +25,3 @@ wizard1 = Wizard('Merlin', 50 )
 print(wizard1.attack())
 
 archer1 = Archer('Elven', 150 )
-print(wizard1.attack())

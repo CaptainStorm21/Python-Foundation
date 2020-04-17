@@ -1,4 +1,4 @@
-#  inheritance
+#  polymorphism - share  methods by classes
 
 class User():
     def sign_in(self):
