@@ -22,4 +22,4 @@ class Wizard(User):
 # interseption  
 wizard1 = Wizard('Merlin', 50, 'wizard@oz.com' )
 # print(wizard1.email)
-print(dir(wizard1))
+print(wizard1))
