@@ -3,9 +3,7 @@ from functools import reduce
 
 my_list = [2, 4, 6, 8, 99, 81]
 
-print('original')
 print(my_list)
-print('post multiplication')
 print(list(map(lambda item: item * 2, my_list)))
 
 
